@@ -10,4 +10,5 @@ $ docker run -d --name fetch-takehome-jh -p 8080:8080 fetch-takehome-jh
 
 
 Stop and clean up everything:
+```bash
 $ docker stop fetch-takehome-jh && docker rm fetch-takehome-jh && docker rmi fetch-takehome-jh
